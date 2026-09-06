@@ -1,6 +1,8 @@
-<html>
-    
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShoPperZ</title>
   <link rel="stylesheet" href="./e-commerce.css">
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
@@ -9,11 +11,11 @@
 <body>
   <header>
     <div class="logo"><a href="#">ShoPperZ</a></div>
+    
     <div class="menu">
-      <a href="#">
+      <a href="#" class="close-btn">
         <ion-icon name="close" class="close"></ion-icon>
       </a>
-
       <ul>
         <li><a href="#" class="under">HOME</a></li>
         <li><a href="#" class="under">SHOP</a></li>
@@ -22,12 +24,12 @@
         <li><a href="#" class="under">ABOUT US</a></li>
       </ul>
     </div>
-    <div class="search">
 
-      <a href=""><input type="text" placeholder="search products" id="input">
-        <ion-icon class="s" name="search"></ion-icon>
-      </a>
+    <div class="search">
+      <input type="text" placeholder="Search products..." id="input">
+      <ion-icon class="s" name="search"></ion-icon>
     </div>
+
     <div class="heading">
       <ul>
         <li><a href="#" class="under">HOME</a></li>
@@ -37,169 +39,180 @@
         <li><a href="#" class="under">ABOUT US</a></li>
       </ul>
     </div>
+
     <div class="heading1">
       <ion-icon name="menu" class="ham"></ion-icon>
     </div>
   </header>
+
   <section>
     <div class="section">
       <div class="section1">
         <div class="img-slider">
-          <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
-          <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
-          <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img">
-          <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
-          <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+          <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Banner 1">
+          <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Banner 2">
+          <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Banner 3">
+          <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Banner 4">
+          <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Banner 5">
         </div>
-
       </div>
+
       <div class="section2">
         <div class="container">
+          
           <div class="items">
-            <div class="img img1"><img src="/images/shoes.jfif" alt=""></div>
+            <div class="img"><img src="/images/shoes.jfif" alt="Shoes"></div>
             <div class="name">SHOES</div>
-            <div class="price">$45</div>
-            <div class="info">Lightweight sneakers with cushioned soles, engineered for all-day comfort and everyday street style.</div>
+            <div class="price">$45.00</div>
+            <div class="info">Lightweight sneakers with cushioned soles, engineered for all-day comfort.</div>
           </div>
-          <div class="items">
-            <div class="img img2"><img src="/images/t-shirt.jfif" alt=""></div>
-            <div class="name">MEN's T-SHIRT</div>
-            <div class="price">$22.34</div>
-            <div class="info">Breathable ribbed-knit polo crafted from soft combed cotton with an easy, relaxed fit..</div>
-          </div>
-          <div class="items">
-            <div class="img img3"><img src="/images/jeans.jfif" alt=""></div>
-            <div class="name">JEANS</div>
-            <div class="price">$39</div>
-            <div class="info">High-waisted wide-leg denim made from premium stretch cotton with clean, raw-hem detailing..</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/watch.jfif" alt=""></div>
-            <div class="name">WATCH</div>
-            <div class="price">$45.1</div>
-            <div class="info">Minimalist analogue timepiece featuring an elegant round dial and a genuine leather strap.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/phone.jfif" alt=""></div>
-            <div class="name">SMART PHONE</div>
-            <div class="price">$299</div>
-            <div class="info">Flagship smartphone equipped with a multi-lens camera system and a smooth high-refresh display.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/televsion.jfif" alt=""></div>
-            <div class="name">TELEVISION</div>
-            <div class="price">$320</div>
-            <div class="info">Ultra HD 4K smart TV delivering rich color contrast and built-in voice assistant support.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/hoodies.jfif" alt=""></div>
-            <div class="name">HOODIES</div>
-            <div class="price">$34.7</div>
-            <div class="info">Fleece-lined oversized graphic pullover featuring durable ribbed cuffs and a relaxed drop-shoulder cut.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/crockery.jfif" alt=""></div>
-            <div class="name">DINNER SET</div>
-            <div class="price">$50</div>
-            <div class="info">Ceramic dinnerware collection complete with chip-resistant dinner plates, bowls, and serving platters.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/blanket.jfif" alt=""></div>
-            <div class="name">BLANKETS</div>
-            <div class="price">$24.9</div>
-            <div class="info">Plush microfiber fleece throw blanket designed to provide lightweight, breathable warmth..</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/laptop.jfif" alt=""></div>
-            <div class="name">LAPTOP</div>
-            <div class="price">$549</div>
-            <div class="info">Slim portable laptop powered by a fast multi-core processor with all-day battery life.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/microwave.jfif" alt=""></div>
-            <div class="name">MICROWAVE</div>
-            <div class="price">$119</div>
-            <div class="info">Compact digital countertop microwave featuring multi-stage heating presets and express defrost.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/coffee-maker.jfif" alt=""></div>
-            <div class="name">COFFEE MAKER</div>
-            <div class="price">$129.7</div>
-            <div class="info">Dual-brew espresso and drip coffee station with programmable timers and a steam wand.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/bed.jfif" alt=""></div>
-            <div class="name">BED</div>
-            <div class="price">$300</div>
-            <div class="info">Modern upholstered platform bed frame designed for comfort and durability.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/ac.jfif" alt=""></div>
-            <div class="name">AIR CONDITIONER</div>
-            <div class="price">$450</div>
-            <div class="info">Energy-efficient split inverter cooling for quiet, fast comfort.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/book.jfif" alt=""></div>
-            <div class="name">BOOK</div>
-            <div class="price">$9</div>
-            <div class="info">Inspiring guided journal filled with thoughtful self-reflection prompts.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/bag.jfif" alt=""></div>
-            <div class="name">BAG</div>
-            <div class="price">$36.5</div>
-            <div class="info">Elegant structured leather handbag with stylish charm detailing.</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/saree.jfif" alt=""></div>
-            <div class="name">SAREES</div>
-            <div class="price">$35</div>
-            <div class="info">Graceful designer drape featuring intricate handcrafted border work</div>
-          </div>
-          <div class="items">
-            <div class="img img1"><img src="/images/washing.jfif" alt=""></div>
-            <div class="name">WASHING MACHINE</div>
-            <div class="price">$599</div>
-            <div class="info">Smart front-load washer delivering quick and powerful cleaning.</div>
-          </div>
-        </div>
 
+          <div class="items">
+            <div class="img"><img src="/images/t-shirt.jfif" alt="Men's T-Shirt"></div>
+            <div class="name">MEN'S T-SHIRT</div>
+            <div class="price">$22.00</div>
+            <div class="info">Breathable ribbed-knit polo crafted from soft combed cotton with an easy fit.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/jeans.jfif" alt="Jeans"></div>
+            <div class="name">JEANS</div>
+            <div class="price">$38.00</div>
+            <div class="info">High-waisted wide-leg denim made from premium stretch cotton fabric.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/watch.jfif" alt="Titan Watch"></div>
+            <div class="name">TITAN WATCH</div>
+            <div class="price">$75.00</div>
+            <div class="info">Minimalist analogue timepiece featuring an elegant round dial and leather strap.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/phone.jfif" alt="Smart Phone"></div>
+            <div class="name">SMART PHONE</div>
+            <div class="price">$299.00</div>
+            <div class="info">Modern 5G smartphone equipped with multi-lens camera and smooth display.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/television.jfif" alt="Television"></div>
+            <div class="name">TELEVISION</div>
+            <div class="price">$320.00</div>
+            <div class="info">Ultra HD 4K smart TV delivering rich color contrast and voice control.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/hoodies.jfif" alt="Hoodies"></div>
+            <div class="name">HOODIES</div>
+            <div class="price">$34.00</div>
+            <div class="info">Fleece-lined oversized graphic pullover featuring a relaxed drop-shoulder cut.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/crockery.jfif" alt="Dinner Set"></div>
+            <div class="name">DINNER SET</div>
+            <div class="price">$42.00</div>
+            <div class="info">Chip-resistant ceramic dinnerware collection with plates, bowls, and platters.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/blanket.jfif" alt="Blankets"></div>
+            <div class="name">BLANKETS</div>
+            <div class="price">$24.00</div>
+            <div class="info">Plush microfiber fleece throw blanket designed to provide lightweight warmth.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/laptop.jfif" alt="Laptop"></div>
+            <div class="name">LAPTOP</div>
+            <div class="price">$549.00</div>
+            <div class="info">Slim portable laptop powered by a fast multi-core processor with long battery life.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/microwave.jfif" alt="Microwave"></div>
+            <div class="name">MICROWAVE</div>
+            <div class="price">$129.00</div>
+            <div class="info">Digital countertop stainless steel microwave featuring express defrost settings.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/coffee-maker.jfif" alt="Coffee Maker"></div>
+            <div class="name">COFFEE MAKER</div>
+            <div class="price">$149.00</div>
+            <div class="info">Dual-brew espresso and drip coffee station with an integrated steam wand.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/bed.jfif" alt="Bed"></div>
+            <div class="name">BED</div>
+            <div class="price">$380.00</div>
+            <div class="info">Modern upholstered platform bed frame designed for durability and comfort.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/ac.jfif" alt="Air Conditioner"></div>
+            <div class="name">AIR CONDITIONER</div>
+            <div class="price">$450.00</div>
+            <div class="info">Energy-efficient split inverter AC delivering quiet, rapid room cooling.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/book.jfif" alt="Book"></div>
+            <div class="name">BOOK</div>
+            <div class="price">$12.00</div>
+            <div class="info">Inspiring guided journal filled with insightful self-reflection prompts.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/bag.jfif" alt="Handbag"></div>
+            <div class="name">BAG</div>
+            <div class="price">$36.00</div>
+            <div class="info">Structured faux-leather satchel handbag with custom charm accents.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/saree.jfif" alt="Sarees"></div>
+            <div class="name">SAREES</div>
+            <div class="price">$32.00</div>
+            <div class="info">Graceful designer georgette drape featuring delicate handcrafted border work.</div>
+          </div>
+
+          <div class="items">
+            <div class="img"><img src="/images/washing.jfif" alt="Washing Machine"></div>
+            <div class="name">WASHING MACHINE</div>
+            <div class="price">$520.00</div>
+            <div class="info">Smart front-load automatic washer with an intensive steam hygiene cycle.</div>
+          </div>
+
+        </div>
       </div>
     </div>
-
   </section>
+
   <footer>
     <div class="footer0">
       <h1>ShoPperZ</h1>
     </div>
-    <div class="footer1 ">
-      Connect with us at<div class="social-media">
-        <a href="#">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </a>
-        <a href="#">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
-        <a href="#">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-        <a href="#">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-        <a href="#">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </a>
+    <div class="footer1">
+      Connect with us at
+      <div class="social-media">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
       </div>
     </div>
+
     <div class="footer2">
       <div class="product">
         <div class="heading">Products</div>
         <div class="div">Sell your Products</div>
         <div class="div">Advertise</div>
         <div class="div">Pricing</div>
-        <div class="div">Product Buisness</div>
-
+        <div class="div">Product Business</div>
       </div>
       <div class="services">
         <div class="heading">Services</div>
@@ -212,7 +225,6 @@
         <div class="heading">Company</div>
         <div class="div">Complaint</div>
         <div class="div">Careers</div>
-        <div class="div">Affiliate Marketing</div>
         <div class="div">Support</div>
       </div>
       <div class="Get Help">
@@ -225,9 +237,8 @@
     </div>
     <div class="footer3">Copyright © <h4>ShoPperZ</h4> 2021-2028</div>
   </footer>
+
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script src="./ecommerce.js"></script>
-
 </body>
-
 </html>
